@@ -9,7 +9,7 @@ function Main() {
 					<img
 						src="img/front_web.png"
 						class="img-front"
-						alt="website image"
+						alt="website"
 						srcset="img/front_web.png 1x,
 						img/front_web_mob.png 3x"
 					/>

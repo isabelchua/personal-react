@@ -16,7 +16,7 @@ function Body() {
 						<img
 							src="img/webdev.png"
 							className="img"
-							alt="web development image"
+							alt="web development"
 							srcet="img/webdev.png 1x,
 		img/web_dev_mob.png 3x"
 						/>
@@ -29,7 +29,7 @@ function Body() {
 						<img
 							src="img/design.png"
 							class="img"
-							alt="web design image"
+							alt="web design"
 							srcset="img/design.png 1x,
 		img/design_mob.png 3x"
 						/>
@@ -57,7 +57,7 @@ function Body() {
 						<img
 							src="img/graphic.png"
 							class="img"
-							alt="graphic design image"
+							alt="graphic design"
 							srcset="img/graphic.png 1x,
 	    	img/graphic_mob.png 2x,
 		img/graphic_mob.png 3x"
