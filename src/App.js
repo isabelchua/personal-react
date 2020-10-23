@@ -1,10 +1,10 @@
 import React from "react";
 
 import "./App.css";
-import Body from "./layout/Body";
+
 import Footer from "./layout/Footer";
 import Header from "./layout/Header";
-import Main from "./layout/Main";
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -14,10 +14,10 @@ function App() {
 	return (
 		<Router>
 			<Header />
-			<Main />
-			<Body />
-			<Footer />
 			<Switch>
+				<Route exact path="/">
+					<Home />
+				</Route>
 				<Route path="/about">
 					<About />
 				</Route>
@@ -28,6 +28,7 @@ function App() {
 					<Home />
 				</Route>
 			</Switch>
+			<Footer />
 		</Router>
 	);
 }
