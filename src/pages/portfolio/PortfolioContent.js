@@ -7,12 +7,16 @@ const PortfolioContent = ({ content: { name, demo, desc, code, list } }) => {
 				<h4>{name}</h4>
 				<div className="proj-img">
 					<a href={demo}>
-						<img src="img/websites/wulver.jpg" alt="wulver weight app" />
+						<img
+							src={"img/websites/wulver.jpg"}
+							alt="wulver weight app"
+						/>
 					</a>
 				</div>
 			</div>
 			<div className="proj-desc">
 				<ul>
+					{list}
 					<li>Track your weight with Graph implementation</li>
 					<li>Full Stack App with full CRUD features</li>
 					<li>Built with React, Express, Mongodb, Node</li>
