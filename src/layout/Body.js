@@ -3,16 +3,16 @@ import React from "react";
 function Body() {
 	return (
 		<>
-			<div class="flexbox-container">
-				<div class="wrapper">
-					<div class="section">
+			<div className="flexbox-container">
+				<div className="wrapper">
+					<div className="section">
 						<h3>Web Development</h3>
 						<p>
 							Creating fast websites with loading speeds that will equal
 							to better conversion ratios!
 						</p>
 					</div>
-					<div class="image-frame">
+					<div className="image-frame">
 						<img
 							src="img/webdev.png"
 							className="img"
@@ -23,18 +23,18 @@ function Body() {
 					</div>
 				</div>
 			</div>
-			<div class="flexbox-container">
-				<div class="wrapper">
-					<div class="image-frame">
+			<div className="flexbox-container">
+				<div className="wrapper">
+					<div className="image-frame">
 						<img
 							src="img/design.png"
-							class="img"
+							className="img"
 							alt="web design"
 							srcset="img/design.png 1x,
 		img/design_mob.png 3x"
 						/>
 					</div>
-					<div class="section text-left">
+					<div className="section text-left">
 						<h3>Responsive Web Design</h3>
 						<p>
 							Responsive web design is about creating web pages that look
@@ -44,19 +44,19 @@ function Body() {
 					</div>
 				</div>
 			</div>
-			<div class="flexbox-container">
-				<div class="wrapper">
-					<div class="section">
+			<div className="flexbox-container">
+				<div className="wrapper">
+					<div className="section">
 						<h3>Graphic Design</h3>
 						<p>
 							Visual communication through the use of typography,
 							photography, iconography, and illustration.{" "}
 						</p>
 					</div>
-					<div class="image-frame">
+					<div className="image-frame">
 						<img
 							src="img/graphic.png"
-							class="img"
+							className="img"
 							alt="graphic design"
 							srcset="img/graphic.png 1x,
 	    	img/graphic_mob.png 2x,

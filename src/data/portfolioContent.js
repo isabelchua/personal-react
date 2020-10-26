@@ -4,7 +4,10 @@ const portfolioContent = [
 		name: "Wulver Weight Tracker",
 		code: "https://github.com/isabelchua/wulver",
 		demo: "https://sheltered-island-46532.herokuapp.com/",
-		list: [],
+		list: [
+			"Track your weight with Graph implementation",
+			"Full Stack App with full CRUD features"
+		],
 		desc:
 			"A weight tracker app that can show you your progress on weightloss. I wanted to build a weight tracker for myself on my weightloss journey"
 	},

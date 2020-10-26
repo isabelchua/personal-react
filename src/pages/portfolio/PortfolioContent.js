@@ -1,18 +1,17 @@
 import React from "react";
 
-const PortfolioContent = ({ content: { name, demo, desc, code } }) => {
-	console.log(name);
+const PortfolioContent = ({ content: { name, demo, desc, code, list } }) => {
 	return (
-		<div class="projects">
-			<div class="title-img">
+		<div className="projects">
+			<div className="title-img">
 				<h4>{name}</h4>
-				<div class="proj-img">
+				<div className="proj-img">
 					<a href={demo}>
 						<img src="img/websites/wulver.jpg" alt="wulver weight app" />
 					</a>
 				</div>
 			</div>
-			<div class="proj-desc">
+			<div className="proj-desc">
 				<ul>
 					<li>Track your weight with Graph implementation</li>
 					<li>Full Stack App with full CRUD features</li>
@@ -24,7 +23,7 @@ const PortfolioContent = ({ content: { name, demo, desc, code } }) => {
 				<h3>Summary</h3>
 				<p>{desc}</p>
 				<a href={demo}>DEMO</a>
-				<a href={code} class="code">
+				<a href={code} className="code">
 					CODE
 				</a>
 			</div>

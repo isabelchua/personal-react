@@ -2,19 +2,19 @@ import React from "react";
 
 function Main() {
 	return (
-		<section id="bio" class="flexbox-container">
+		<section id="bio" className="flexbox-container">
 			<div id="header"></div>
-			<div class="wrapper-head">
-				<div class="image-frame-front">
+			<div className="wrapper-head">
+				<div className="image-frame-front">
 					<img
 						src="img/front_web.png"
-						class="img-front"
+						className="img-front"
 						alt="website"
 						srcset="img/front_web.png 1x,
 						img/front_web_mob.png 3x"
 					/>
 				</div>
-				<div class="info">
+				<div className="info">
 					<h1>Isabel</h1>
 					<h4>Designer & Web Developer based in California</h4>
 					<p>

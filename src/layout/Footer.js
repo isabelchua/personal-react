@@ -2,11 +2,11 @@ import React from "react";
 
 function Footer() {
 	return (
-		<div class="flexbox-container">
-			<div class="foot-wrapper">
+		<div className="flexbox-container">
+			<div className="foot-wrapper">
 				<div id="footerb">
 					<div>
-						<a class="sm" href="https://www.facebook.com/pinkchocobo">
+						<a className="sm" href="https://www.facebook.com/pinkchocobo">
 							{" "}
 							<svg
 								version="1.1"
@@ -18,7 +18,7 @@ function Footer() {
 								width="64.071px"
 								height="64.071px"
 								viewBox="0 0 64.071 64.071"
-								enable-background="new 0 0 64.071 64.071"
+								enableBackground="new 0 0 64.071 64.071"
 								xmlSpace="preserve"
 							>
 								<path
@@ -32,7 +32,10 @@ function Footer() {
 						</a>
 					</div>
 					<div>
-						<a class="sm" href="https://www.instagram.com/isabelchua86/">
+						<a
+							className="sm"
+							href="https://www.instagram.com/isabelchua86/"
+						>
 							<svg
 								version="1.1"
 								id="Layer_1"
@@ -43,7 +46,7 @@ function Footer() {
 								width="64.071px"
 								height="64.071px"
 								viewBox="0 0 64.071 64.071"
-								enable-background="new 0 0 64.071 64.071"
+								enableBackground="new 0 0 64.071 64.071"
 								xmlSpace="preserve"
 							>
 								<path
@@ -101,7 +104,7 @@ function Footer() {
 						</a>
 					</div>
 					<div>
-						<a class="sm" href="https://github.com/isabelchua">
+						<a className="sm" href="https://github.com/isabelchua">
 							<svg
 								version="1.1"
 								id="Layer_1"
@@ -112,7 +115,7 @@ function Footer() {
 								width="64.071px"
 								height="64.071px"
 								viewBox="0 0 64.071 64.071"
-								enable-background="new 0 0 64.071 64.071"
+								enableBackground="new 0 0 64.071 64.071"
 								xmlSpace="preserve"
 							>
 								<path
@@ -170,8 +173,8 @@ function Footer() {
 									/>
 								</g>
 								<path
-									fill-rule="evenodd"
-									clip-rule="evenodd"
+									fillRule="evenodd"
+									clipRule="evenodd"
 									fill="#8D86A9"
 									d="M31.998,0C14.33,0,0,14.326,0,32.001
 	C0,46.136,9.169,58.129,21.884,62.36c1.6,0.296,2.185-0.694,2.185-1.542c0-0.76-0.029-2.771-0.044-5.44
@@ -187,7 +190,10 @@ function Footer() {
 						</a>
 					</div>
 					<div>
-						<a class="sm" href="https://www.linkedin.com/in/isabelchua86">
+						<a
+							className="sm"
+							href="https://www.linkedin.com/in/isabelchua86"
+						>
 							<svg
 								version="1.1"
 								id="Layer_1"
@@ -198,7 +204,7 @@ function Footer() {
 								width="64.071px"
 								height="64.071px"
 								viewBox="0 0 64.071 64.071"
-								enable-background="new 0 0 64.071 64.071"
+								enableBackground="new 0 0 64.071 64.071"
 								xmlSpace="preserve"
 							>
 								<path
