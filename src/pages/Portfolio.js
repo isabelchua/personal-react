@@ -2,11 +2,7 @@ import React from "react";
 import PortfolioContent from "./portfolio/PortfolioContent";
 import portfolioContent from "../data/portfolioContent";
 
-function portContent(content) {
-	return <PortfolioContent name={content.name} desc={content.desc} />;
-}
-
-function Portfolio() {
+function Portfolio(content) {
 	return (
 		<>
 			<section id="bio" class="flexbox-container">
@@ -19,7 +15,13 @@ function Portfolio() {
 				<div class="wrapper portfolio">
 					<div class="proj-wrap">
 						<div class="row">
-							{portfolioContent.map(portContent)}
+							{portfolioContent.map(content => (
+								<PortfolioContent
+									content={content}
+									// name={content.name}
+									// desc={content.desc}
+								/>
+							))}
 							{/* <PortfolioContent /> */}
 							{/* <div class="projects">
 								<div class="title-img">

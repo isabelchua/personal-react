@@ -1,12 +1,13 @@
 import React from "react";
 
-const PortfolioContent = props => {
+const PortfolioContent = ({ content: { name, demo, desc, code } }) => {
+	console.log(name);
 	return (
 		<div class="projects">
 			<div class="title-img">
-				<h4>{props.name}</h4>
+				<h4>{name}</h4>
 				<div class="proj-img">
-					<a href="https://sheltered-island-46532.herokuapp.com/">
+					<a href={demo}>
 						<img src="img/websites/wulver.jpg" alt="wulver weight app" />
 					</a>
 				</div>
@@ -21,9 +22,9 @@ const PortfolioContent = props => {
 					<li>HTML / CSS</li>
 				</ul>
 				<h3>Summary</h3>
-				<p>{props.desc}</p>
-				<a href="https://sheltered-island-46532.herokuapp.com/">DEMO</a>
-				<a href="https://github.com/isabelchua/wulver" class="code">
+				<p>{desc}</p>
+				<a href={demo}>DEMO</a>
+				<a href={code} class="code">
 					CODE
 				</a>
 			</div>
