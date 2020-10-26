@@ -20,45 +20,6 @@ function Portfolio(content) {
 							))}
 
 							<div className="projects">
-								<div className="title-img">
-									<h4>Wendigo Chat App</h4>
-									<div className="proj-img">
-										<a href="https://chat-service-ce6e8.web.app/">
-											<img
-												src="img/websites/wendigo.jpg"
-												alt="chat app"
-											/>
-										</a>
-									</div>
-								</div>
-								<div className="proj-desc">
-									<ul>
-										<li>Google & Facebook Authentication</li>
-										<li>Realtime chat with logged in Users</li>
-
-										<li>Built with React js</li>
-										<li>JavaScript ES6</li>
-										<li>HTML / CSS</li>
-									</ul>
-									<h3>Summary</h3>
-									<p>
-										Authenticated users can create channels and chat
-										with other logged in users. Data is stored in the
-										Firebase database.
-									</p>
-									<a href="https://chat-service-ce6e8.web.app/">
-										DEMO
-									</a>
-									<a
-										href="https://github.com/isabelchua/Wendigo"
-										className="code"
-									>
-										CODE
-									</a>
-								</div>
-							</div>
-
-							<div className="projects">
 								<div className="proj-img">
 									<div className="title-img">
 										<h4>Twitter Clone</h4>
