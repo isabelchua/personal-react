@@ -30,8 +30,52 @@ const portfolioContent = [
 		],
 		desc:
 			"Authenticated users can create channels and chat with other logged in users. Data is stored in the Firebase database."
+	},
+	{
+		id: 3,
+		name: "Twitter Clone",
+		code: "https://github.com/isabelchua/Wendigo",
+		demo: "https://twitter-clone-c94ff.web.app/",
+		src: "img/websites/twitter.jpg",
+		list: [
+			"Built with React js",
+			"Firebase Cloud Firestore",
+			"Responsive",
+			"JavaScript ES6",
+			"HTML / CSS"
+		],
+		desc:
+			"A single page application using React js with realtime posting. This allows users to create posts and they are stored into the database."
+	},
+	{
+		id: 4,
+		name: "Paw Finder",
+		code: "https://github.com/isabelchua/paw-finder-v2",
+		demo: "https://paw-finder.vercel.app/",
+		src: "img/websites/dog.jpg",
+		list: [
+			"Built with React js",
+			"Fetching data from thedogapi.com",
+			"Responsive",
+			"JavaScript ES6",
+			"HTML / CSS"
+		],
+		desc:
+			"A single page application using React js. Choose a breed and data is fetched from thedogapi.com API and images from dog.ceo."
 	}
 ];
+
+// {
+// 	id: 5,
+// 	name: "The Dog Walker",
+// 	code:
+// 		"https://github.com/isabelchua/isabelchua.github.io/tree/master/thedogwalker",
+// 	demo: "https://isabelchua.github.io/thedogwalker/",
+// 	src: "img/websites/dog-walk.jpg",
+// 	list: ["Basic HTML with CSS", "Responsive"],
+// 	desc:
+// 		"I made this site for HTML/CSS practice when starting out. Practiced on doing it for being responsive. I made the logos, icons, everthing is made from scratch."
+// }
 
 // [{
 // 	id: 1,
